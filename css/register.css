@@ -76,13 +76,30 @@ html{
     color: red;
     cursor: pointer;
 }
+.repassword,
+.name,
+.email,
+.language,
+.sex,
 .password,
 .username{
     padding: 8px;
     border-radius: 5px;
 }
+.sex,
+.language{
+    border: 1px solid#000;
+    color: #000;
+}
+
+.form__input-repassword,
+.form__input-name,
+.form__input-email,
+.form__input-language,
+.form__input-sex,
 .form__input-password,
 .form__input-username{
+    margin-top: 5px;
     display: flex;
     flex-direction: column;
 
