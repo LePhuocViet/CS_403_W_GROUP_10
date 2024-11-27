@@ -43,7 +43,7 @@
                             <span class="form__sign-tile">Register</span>
                         </div>
                         <div class="form__login-submit">
-                            <button type="button" onclick="Login_Confirm('username', 'password')" class="form__button">Login</button>
+                            <button type="button" onclick="loginFunction('.form__input-username .error__message','username', 'password')" class="form__button">Login</button>
                         </div>
                         </div>
                        
@@ -58,21 +58,9 @@
 
     </div>
     <script src="./js/login.js"></script>
-    <script src="./js/link.js"></script>
+  
     <script>
-        Valid_isNull(".form__input-username","username")
-        Valid_isNull(".form__input-password","password")
 
-
-        var forgotElement = document.querySelector(".form__forgot-tile")
-        forgotElement.addEventListener("click",function(){
-            window.location.href = connect_fe() + "/change-password.html"; 
-        });
-
-        var signElement = document.querySelector(".form__sign-tile")
-        signElement.addEventListener("click", function() {
-            window.location.href = connect_fe() + "/register.html"; 
-        });
     </script>
 
 
