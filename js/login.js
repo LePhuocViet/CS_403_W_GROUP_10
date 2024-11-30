@@ -25,6 +25,7 @@ function loginFunction(errorMessage, inputUsername, inputPassword) {
     })
     .then(data => {
         if (data.result.authenticated) {
+            alert("Đăng nhập thành công")
             window.location.href = "/home";
         }
     })
