@@ -1,5 +1,7 @@
 var apiConnect = "https://moonlit-poetry-438713-c2.uc.r.appspot.com"
-
+const login = () =>{
+    window.location.href="/register"
+}
 
 const registerFunction = () => {
     const getName = document.querySelector("#name").value
@@ -45,7 +47,7 @@ const registerFunction = () => {
         console.log(data.result); 
         if(data.result){
            alert("Dang ky thanh cong")
-           window.location.href = "/login.html";
+           window.location.href = "/login";
         }
      
     })

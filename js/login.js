@@ -1,5 +1,9 @@
 var apiConnect = "https://moonlit-poetry-438713-c2.uc.r.appspot.com/"
 
+const register = () =>{
+    window.location.href="/login"
+}
+
 
 function loginFunction(errorMessage, inputUsername, inputPassword) {
     var getUsername = document.getElementById(inputUsername).value;
