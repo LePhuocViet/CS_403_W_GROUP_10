@@ -1,0 +1,96 @@
+html{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+body{
+    margin: 0;
+}
+.grid{
+    width: 1300px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.header__list{
+
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid #333;
+}
+
+.header__item-name{
+    margin-left: 10px;
+}
+
+.header__icon-bell:hover{
+    cursor: pointer;
+    opacity: 0.5;
+    background-color: #c0c0c0;
+}
+
+.header__icon-bell{
+    border-radius: 20px;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.header__name-title{
+ 
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(247, 189, 113);
+}
+
+.header__item-icon{
+    display: flex;
+    align-items: center;
+}
+
+.header__icon-guess{
+    display: flex;
+    margin: 0 10px;
+    align-items: center;
+}
+
+.header__icon-login{
+    display: none;
+    margin: 0 10px;
+    align-items: center;
+}
+
+.header__icon-login-user{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+
+.header__icon-login-user:hover{
+    cursor: pointer;
+    background-color: #c0c0c0;
+}
+.header__login-logo{
+    margin-right: 5px;
+    width: 30px;
+    padding: 5px;
+    border-radius: 20px;
+    border: 1px solid #333;
+}
+
+.header__guess-resgiter{
+    margin-left: 5px;
+}
+.header__guess-login{
+    margin-right: 5px;
+}
+.header__guess-resgiter:hover,
+.header__guess-login:hover{
+    cursor: pointer;
+    color:red;
+}
